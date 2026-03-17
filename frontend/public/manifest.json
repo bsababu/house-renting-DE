@@ -1,0 +1,43 @@
+{
+  "name": "HousingDE - Find Your Verified Home",
+  "short_name": "HousingDE",
+  "description": "AI-powered housing platform for Germany. Verified listings, automated applications, and scam protection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Find Homes",
+      "url": "/search",
+      "description": "Search for verified rental listings"
+    },
+    {
+      "name": "Safety Dashboard",
+      "url": "/safety",
+      "description": "Check scam intelligence and trust scores"
+    },
+    {
+      "name": "My Watchlist",
+      "url": "/watchlist",
+      "description": "View saved listings"
+    }
+  ]
+}
